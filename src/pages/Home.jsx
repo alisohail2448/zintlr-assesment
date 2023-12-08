@@ -7,7 +7,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import CommonCards from "../components/CommonCards";
 
 const Home = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   return (
     <Router>
